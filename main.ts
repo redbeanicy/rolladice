@@ -13,6 +13,7 @@ myDice = 0
 frdDice = 0
 basic.forever(function () {
     if (myDice != 0 && frdDice != 0) {
+        basic.showNumber(myDice)
         basic.pause(1000)
         if (myDice == frdDice) {
             basic.showIcon(IconNames.Asleep)
